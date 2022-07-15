@@ -1,0 +1,160 @@
+*{box-sizing: border-box;}
+.row{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+    font-size: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav li{
+    position: relative;
+    display: inline;
+}
+
+.left{
+    float: left;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+img{
+    width: 100%;
+    height: 150px;
+}
+
+.setting-img-in-banner{
+    position: relative;
+}
+
+.content-in-banner{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-family: "Lobster";
+    top: 20px ;
+    left: 20px;
+}
+.content-in-body{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.content-in-body h2{
+    top: 50px;
+    bottom: 50px;
+    font-size: 23px;
+    color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-in-body p{
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:576px){
+    nav a{font-size: 8px;}
+    .left{
+        padding-left: 2%;
+        padding-top: 2%;
+    }
+
+    .content-in-banner{
+        top: 30px;
+        left: 20px;
+    }
+    .content-in-banner h1{
+        font-size: 16px;
+        margin: auto;
+    }
+    .content-in-body{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .content-in-body h2{
+        font-size: 17px;
+        color:darkcyan;
+    }
+    .content-in-body p{
+        margin: 20px;
+        font-size: 12px;
+    }
+    .setting-img-in-banner img{
+        width: 100%;
+        height: 200px;
+        padding-bottom: 10px;
+    }
+  
+}
+
+@media screen and (min-width: 768px){
+    nav a{font-size:  18px;}
+    .left{padding: 2%;}
+    .content-in-banner{
+        top: 50px;
+        left: 20px;
+    }
+    .content-in-banner h1{
+        font-size: 30px;
+        margin: auto;
+    }
+    .content-in-body{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .content-in-body h2{
+        font-size: 25px;
+        color:blueviolet;
+    }
+    .content-in-body p{
+        margin: 20px;
+        font-size: 20px;
+    }
+    .setting-img-in-banner img{
+        width: 100%;
+        height: 300px;
+    }
+}
+    
+@media screen and (min-width:992px){
+    .row{
+        margin-top: 0%;
+    }
+    nav a{font-size:  20px; margin-top: 0%;}
+    .left{padding: 4%;}
+    .content-in-banner{
+        top: 60px;
+        left: 20px;
+    }
+    .content-in-banner h1{
+        font-size: 40px;
+        margin: auto;
+    }
+    .content-in-body{
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+    .content-in-body h2{
+        font-size: 28px;
+        color:darkgreen;
+    }
+    .content-in-body p{
+        margin: 20px;
+        font-size: 23px;
+    }
+    .setting-img-in-banner img{
+        width: 100%;
+        height: 500px;
+        padding-bottom: 10px;
+    }
+}
